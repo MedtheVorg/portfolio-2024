@@ -18,11 +18,11 @@ export default function Project({
     livePreviewUrl,
 }: ProjectProps) {
     return (
-        <div className='bg-panel-color/50 p-4 sm:p-8 rounded-md border-2 border-secondary-panel-color transition hover:shadow-whiteBox  duration-500  flex flex-col-reverse sm:grid sm:grid-cols-4 sm:grid-rows-1  gap-y-4 sm:gap-y-0 items-center  '>
-            <div className='sm:col-span-2 text-left'>
+        <div className='bg-panel-color/50 p-4 sm:p-8 rounded-md border-2 border-secondary-panel-color transition hover:shadow-whiteBox  duration-500  flex flex-col-reverse sm:grid sm:grid-cols-4 sm:grid-rows-1  gap-y-8 sm:gap-y-0 items-center  '>
+            <div className='sm:col-span-2 lg:col-span-3 text-left'>
                 <div className='flex flex-col sm:flex-row sm:col-span-2 gap-y-4 sm:gap-y-0 items-center justify-between'>
                     <h3 className='font-semibold text-xl'>{title}</h3>
-                    <div className='flex gap-x-4'>
+                    <div className='flex flex-col lg:flex-row md:gap-x-8 gap-y-4'>
                         <SocialLink
                             Icon={Telescope}
                             title='live preview'
@@ -35,9 +35,12 @@ export default function Project({
                         />
                     </div>
                 </div>
-                <p className='mt-6 text-balance md:text-lg'> {description}</p>
+                <p className='mt-12 p-2 md:p-0 text-balance md:text-lg'>
+                    {' '}
+                    {description}
+                </p>
             </div>
-            <div className='sm:col-span-2'>
+            <div className='sm:col-span-2 lg:col-span-1'>
                 <Image
                     src={logo}
                     alt='market place e-commerce store'
