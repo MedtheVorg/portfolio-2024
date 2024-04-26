@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import logo from '@/public/ML.png';
 import Skills from './ui/skills';
+import SocialLink from './ui/social-link';
+import { FileText } from 'lucide-react';
 
 export default function About() {
     return (
@@ -37,6 +39,21 @@ export default function About() {
                             contribute effectively to my team&apos;s success and
                             grow professionally.
                         </p>
+                    </div>
+                    <div className='mt-8'>
+                        <h3 className='text-xl capitalize mb-6'>my resume :</h3>
+                        <div className='flex gap-x-8'>
+                            <SocialLink
+                                Icon={FileText}
+                                title='English Version'
+                                url='https://raw.githubusercontent.com/MedtheVorg/portfolio-2024/8c8d275442f0e4731e0682b57e9f0f538605b009/src/public/Mohamed_lemaallaoui_CV_English.pdf'
+                            />
+                            <SocialLink
+                                Icon={FileText}
+                                title='French Version'
+                                url='https://raw.githubusercontent.com/MedtheVorg/portfolio-2024/8c8d275442f0e4731e0682b57e9f0f538605b009/src/public/mohamed%20lemaallaoui_CV_french.pdf'
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
