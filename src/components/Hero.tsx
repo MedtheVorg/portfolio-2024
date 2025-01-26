@@ -58,7 +58,7 @@ export default function Hero() {
                      <SocialLink
                                 Icon={FileText}
                                 title='French CV'
-                                url='https://github.com/MedtheVorg/portfolio-2024/blob/2fa24ad52b9de5f6bad35535723c56aeaec971b6/src/public/mohamed_lemaallaoui_CV_2024.pdf'
+                                url='https://raw.githubusercontent.com/MedtheVorg/portfolio-2024/refs/heads/main/src/public/mohamed_lemaallaoui_CV_2024.pdf'
                             />
                    </div>
                 </div>
