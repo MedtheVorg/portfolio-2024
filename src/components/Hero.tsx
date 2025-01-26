@@ -6,7 +6,7 @@ import { SiPhp } from 'react-icons/si';
 export default function Hero() {
     return (
         <section
-            className=' flex-1 max-md:mt-20 text-white flex flex-col  items-center justify-start px-2 sm:px-0'
+            className=' flex-1 max-md:mt-10 text-white flex flex-col  items-center justify-start px-2 sm:px-0'
             id='home'
         >
             <KeyboardIcon className='md:size-[400px] animate-levitate rotate-x-90 ' />
