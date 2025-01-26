@@ -6,16 +6,16 @@ import { SiPhp } from 'react-icons/si';
 export default function Hero() {
     return (
         <section
-            className=' flex-1 text-white flex flex-col  items-center justify-start px-2 sm:px-0'
+            className=' flex-1 max-md:mt-20 text-white flex flex-col  items-center justify-start px-2 sm:px-0'
             id='home'
         >
-            <KeyboardIcon className='md:size-[300px] animate-levitate' />
+            <KeyboardIcon className='md:size-[400px] animate-levitate rotate-x-90 ' />
             <div className='p-4  '>
                 <h1 className='text-4xl sm:text-8xl text-left drop-shadow-lightShadow   font-bold  mb-4'>
                     hi, I&apos;m Mohamed
                 </h1>
                 <p className='text-xl md:text-3xl my-4 mb-8 text-left     rounded-md '>
-                    a Full Stack Web Developer{' '}
+                    A Full Stack Web Developer{' '}
                 </p>
                 <p className=''>
                     {' '}
@@ -35,7 +35,7 @@ export default function Hero() {
                         </span>
                         <span>
                             ({' '}
-                            <FaReact className='inline text-[#61DBFB] size-8 md:size-10' />{' '}
+                            <FaReact className='inline rotate-180  duration-[5000] text-[#61DBFB] size-8 md:size-10' />{' '}
                         </span>
                         )
                     </span>

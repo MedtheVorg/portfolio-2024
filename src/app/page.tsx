@@ -5,11 +5,11 @@ import Projects from '@/components/Projects';
 
 export default function Home() {
     return (
-        <main className='flex flex-col h-[100vh]'>
+        <main className='flex flex-col h-[100vh] items-center'>
             <Hero />
             {/* <About />
             <Projects /> */}
-            <Footer />
+            {/* <Footer /> */}
         </main>
     );
 }
