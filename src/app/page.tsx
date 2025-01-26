@@ -5,10 +5,10 @@ import Projects from '@/components/Projects';
 
 export default function Home() {
     return (
-        <main>
+        <main className='flex flex-col h-[100vh]'>
             <Hero />
-            <About />
-            <Projects />
+            {/* <About />
+            <Projects /> */}
             <Footer />
         </main>
     );

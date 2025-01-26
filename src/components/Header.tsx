@@ -27,15 +27,15 @@ export default function Header() {
         <header
             className={cn(
                 jetBrains.className,
-                ' text-white sm:px-12   fixed top-0 w-full transition duration-500  p-4 z-10',
+                ' text-white sm:px-12   fixed top-0 w-full transition duration-500  p-2 z-10',
                 isScrolling && 'bg-white/20 backdrop-blur-sm'
             )}
         >
-            <div className='  flex flex-col  items-center justify-between gap-y-3 sm:flex-row sm:gap-y-0 '>
+            <div className='  flex   items-center justify-between gap-y-3 sm:flex-row sm:gap-y-0 '>
                 <Link href={'#home'}>
                     <Logo />
                 </Link>
-                <div>
+                {/* <div>
                     <nav className='space-x-6 text-base md:text-xl'>
                         <Link
                             href={'#about'}
@@ -48,7 +48,7 @@ export default function Header() {
                         </Link>
                         <Link href={'#projects'}>👷‍♂️ Projects</Link>
                     </nav>
-                </div>
+                </div> */}
             </div>
         </header>
     );

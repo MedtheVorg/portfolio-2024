@@ -23,6 +23,15 @@ const config: Config = {
             boxShadow: {
                 whiteBox: '0px 0px 20px rgb(255, 255, 255, 0.1)',
             },
+            keyframes: {
+                levitate: {
+                  '0%, 100%': { transform: 'translateY(0)' },
+                  '50%': { transform: 'translateY(-10px)' },
+                },
+              },
+              animation: {
+                levitate: 'levitate 2s ease-in-out infinite',
+              },
         },
     },
     plugins: [require('@xpd/tailwind-3dtransforms')],
